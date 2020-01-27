@@ -1,5 +1,5 @@
 .navbar {
-  background-color: pink;
+  background-color: white;
 }
 
 header.masthead {
@@ -19,14 +19,15 @@ div.header-content {
 h1 {
   font-weight: bold;
   color: #ffffff;
+   text-shadow: 4px 4px 6px #000000
+}
+
+h2 {
+  color: #ffffff;
+   text-shadow: 2px 2px 2px #000000
 }
 
 img{
-}
-
-
-#paragraph {
-  color: blue;
 }
 
 #ramen-carousel {
