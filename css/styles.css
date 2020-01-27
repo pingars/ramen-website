@@ -7,8 +7,8 @@ header.masthead {
   background-image: url(https://d3ba08y2c5j5cf.cloudfront.net/wp-content/uploads/2019/05/27135714/IPPUDO-Niboshi-Ramen-2.jpg);
   background-position: center center;
   background-size: cover;
-  padding-top: 20rem;
-  padding-bottom: calc(20rem - 56px);
+  padding-top: 15rem;
+  padding-bottom: calc(15rem - 56px);
   justify-content: center;
 }
 
@@ -25,6 +25,10 @@ h1 {
 h2 {
   color: #ffffff;
    text-shadow: 2px 2px 2px #000000
+}
+
+.ramen-button {
+  margin-top: 30px;
 }
 
 img{
