@@ -127,6 +127,23 @@ table {
   text-align: center;
 }
 
+@media (max-width: 550px) {
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+    border-radius:3px;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 992px) {
+  .btn-responsive {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.2;
+  }
+}
+
 .image-caption {
     color: black;
     transition: 0.5s ease-out;
@@ -138,11 +155,24 @@ table {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 60px;
+    font-size: 45px;
     font-family: "helvetica neue", helvetica;
     font-weight: normal;
     text-transform: uppercase;
 }
+
+@media (max-width: 550px) {
+  .image-caption {
+    font-size:35px;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 992px) {
+  .image-caption {
+    font-size:40px;
+  }
+}
+
 
   .ramen-btn-modal {
   display: none; /* Hidden by default */
