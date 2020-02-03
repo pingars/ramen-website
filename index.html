@@ -2,13 +2,14 @@
 <html>
 <head>
   <title>
-  This is a title!
+  All About Ramen
   </title>
   <link rel="stylesheet"
 href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min
 .css" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -50,8 +51,8 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min
 
 <header class="masthead d-flex text-center text-white">
 <div class="header-content">
-    <h1 style="font-size:7vw">Welcome, Ramen Lover!</h1>
-    <h2 style="font-size:3vw">This is a website all about ramen</h2>
+    <h1 style="font-size:7vw">Welcome, Ramen Lover</h1>
+    <h1 style="font-size:3vw">Yes, this is a website all about ramen!</h1>
     <a class="btn btn-light btn-xl js-scroll-trigger ramen-button" href="#ramen-recommendations">Find me the best ramen!</a>
 </div>
 
@@ -145,54 +146,133 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min
 <div id="ramen-recommendations">
   <div class="container-fluid">
     <div class="row no-gutters">
-      <div class="col-sm-6 ramen-image">
-
+      <div class="col-md-6 ramen-image">
           <img class="img-fluid" src="pics/ippudo.jpg" alt="ippudo">
           <div class="image-overlay"></div>
           <p class="image-caption">Ippudo</p>
-          <button id="myBtn" type="button" class="btn btn-light ramen-btn">Take me there!</button>
-          <div id="myModal" class="ramen-btn-modal">
+          <button type="button" class="btn btn-responsive btn-light ramen-btn">Take me there!</button>
+          <div class="ramen-btn-modal">
             <div class="ramen-btn-modal-content">
               <span class="close">&times;</span>
-              <div class="container row">
-                <div class="col-4 map-responsive"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.859151537098!2d-0.12964518452132082!3d51.51579997963654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b32c31cf361%3A0xfdaf8ad029b6950e!2sIppudo!5e0!3m2!1sen!2shk!4v1580304461700!5m2!1sen!2shk" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> </div>
-              <div class="col-8 ramen-btn-modal-text">
+              <div class="container-fluid">
+                <div class= "row flex-column-reverse flex-md-row">
+                <div class="col-md-5 map-responsive">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.859151537098!2d-0.12964518452132082!3d51.51579997963654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b32c31cf361%3A0xfdaf8ad029b6950e!2sIppudo!5e0!3m2!1sen!2shk!4v1580304461700!5m2!1sen!2shk" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+              <div class="col-md-7 ramen-btn-modal-text">
                 <h2> Ippudo Ramen </h2><br>
-                <p>Japanese spot for Hakata-style ramen also offers dumplings, sushi and steak in casual, modern digs. </p></div>
+                <p>Japanese spot for Hakata-style ramen also offers dumplings, sushi and steak in casual, modern digs. <br><br> Website: www.ippudo.co.uk<br> Telephone: +44 20 7240 4469<br><br> </p></div>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-6 ramen-image">
+          <img class="img-fluid" src="pics/kanadaya.jpg" alt="kanadaya">
+          <div class="image-overlay"></div>
+          <p class="image-caption">Kanada-ya</p>
+          <button type="button" class="btn btn-responsive btn-light ramen-btn">Take me there!</button>
+          <div class="ramen-btn-modal">
+            <div class="ramen-btn-modal-content">
+              <span class="close">&times;</span>
+              <div class="container-fluid">
+                <div class= "row flex-column-reverse flex-md-row">
+                <div class="col-md-5 map-responsive">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9931.505806481857!2d-0.127594!3d51.5154826!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6d8ce5d74f6042d!2sKanada-Ya!5e0!3m2!1sen!2shk!4v1580724942710!5m2!1sen!2shk" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+              <div class="col-md-7 ramen-btn-modal-text">
+                <h2> Kanada-ya Ramen </h2><br>
+                <p>Lively venue serving a range of traditional Japanese noodle suits in a compact corner venue. <br><br> Website: <br> Telephone: <br><br></p></div>
               </div>
             </div>
           </div>
-
-        </a>
-      </div>
-      <div class="col-sm-6">
-        <a class="ramen-image" href = "pics/kanadaya.jpg">
-          <img class="img-fluid" src="pics/kanadaya.jpg" alt="kanadaya">
-        </a>
-      </div>
+          </div>
     </div>
     <div class="row no-gutters">
-      <div class="col-sm">
-        <a class="ramen-image" href = "pics/shoryu.jpg">
+      <div class="col-md-6 ramen-image">
           <img class="img-fluid" src="pics/shoryu.jpg" alt="shoryu">
-        </a>
+          <div class="image-overlay"></div>
+          <p class="image-caption">Shoryu</p>
+          <button type="button" class="btn btn-responsive btn-light ramen-btn">Take me there!</button>
+          <div class="ramen-btn-modal">
+            <div class="ramen-btn-modal-content">
+              <span class="close">&times;</span>
+              <div class="container-fluid">
+                <div class= "row flex-column-reverse flex-md-row">
+                <div class="col-md-5 map-responsive">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9931.494444714257!2d-0.12763691902286098!3d51.5155347095797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d3f28dd3a5%3A0x65804136349fa20!2sSHORYU%20RAMEN%20Soho!5e0!3m2!1sen!2shk!4v1580732658765!5m2!1sen!2shk" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+              <div class="col-md-7 ramen-btn-modal-text">
+                <h2> Shoryu Ramen </h2><br>
+                <p>Chic noodle restaurant serving ramen dishes and a huge choice of sakes, with an expert sommelier. <br><br> Website: <br> Telephone: <br><br></p></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-sm">
-        <a class="ramen-image" href = "pics/tonkotsu.jpg">
+      <div class="col-md-6 ramen-image">
           <img class="img-fluid" src="pics/tonkotsu.jpg" alt="tonkotsu">
-        </a>
+          <div class="image-overlay"></div>
+          <p class="image-caption">Tonkotsu</p>
+          <button type="button" class="btn btn-responsive btn-light ramen-btn">Take me there!</button>
+          <div class="ramen-btn-modal">
+            <div class="ramen-btn-modal-content">
+              <span class="close">&times;</span>
+              <div class="container-fluid">
+                <div class= "row flex-column-reverse flex-md-row">
+                <div class="col-md-5 map-responsive">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9933.608470208637!2d-0.10772343022462165!3d51.5058383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604a8c7ebceb1%3A0x70203a6182f6efdd!2sTonkotsu%20Bankside!5e0!3m2!1sen!2shk!4v1580733070826!5m2!1sen!2shk" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+              <div class="col-md-7 ramen-btn-modal-text">
+                <h2> Tonkotsu Ramen </h2><br>
+                <p> Modern, hip canteen serving Japanese ramen with homemade noodles in a variety of broths. <br><br> Website: <br> Telephone: <br><br></p></div>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
     <div class="row no-gutters">
-      <div class="col-sm">
-        <a class="ramen-image" href = "pics/bone-daddies.jpg">
+      <div class="col-md-6 ramen-image">
           <img class="img-fluid" src="pics/bone-daddies.jpg" alt="bone-daddies">
-        </a>
+          <div class="image-overlay"></div>
+          <p class="image-caption">Bone Daddies</p>
+          <button type="button" class="btn btn-responsive btn-light ramen-btn">Take me there!</button>
+          <div class="ramen-btn-modal">
+            <div class="ramen-btn-modal-content">
+              <span class="close">&times;</span>
+              <div class="container-fluid">
+                <div class= "row flex-column-reverse flex-md-row">
+                <div class="col-md-5 map-responsive">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.021289271286!2d-0.1360709489588427!3d51.51282541802794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d3723773e9%3A0x6f5cb19836badf9e!2sBone%20Daddies%20Soho!5e0!3m2!1sen!2shk!4v1580733153579!5m2!1sen!2shk" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+              <div class="col-md-7 ramen-btn-modal-text">
+                <h2> Bone Daddies Ramen </h2><br>
+                <p>Ramen bar with an old-school rock soundtrack, serving creative twists on Japanese fare, plus drinks. <br><br> Website: <br> Telephone: <br><br></p></div>
+              </div>
+            </div>
+          </div>
       </div>
-      <div class="col-sm">
-        <a class="ramen-image" href = "pics/monohon.jpeg">
+      </div>
+      <div class="col-md-6 ramen-image">
           <img class="img-fluid" src="pics/monohon.jpeg" alt="monohon">
-        </a>
+          <div class="image-overlay"></div>
+          <p class="image-caption">Monohon</p>
+          <button type="button" class="btn btn-responsive btn-light ramen-btn">Take me there!</button>
+          <div class="ramen-btn-modal">
+            <div class="ramen-btn-modal-content">
+              <span class="close">&times;</span>
+              <div class="container-fluid">
+                <div class= "row flex-column-reverse flex-md-row">
+                <div class="col-md-5 map-responsive">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.3730496602307!2d-0.09560628452659443!3d51.524717217258356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca81b2e64b3%3A0xaa2ac46d1c4ada34!2sMonohon%20Ramen!5e0!3m2!1sen!2shk!4v1580733393123!5m2!1sen!2shk" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+              <div class="col-md-7 ramen-btn-modal-text">
+                <h2> Monohon Ramen </h2><br>
+                <p> Classic ramen is given the full Japanese treatment at this relaxed, compact eatery. <br><br> Website: <br> Telephone: <br><br></p></div>
+              </div>
+            </div>
+          </div>
+      </div>
       </div>
     </div>
   </div>
@@ -215,29 +295,86 @@ $(document).ready(function () {
     $('.carousel').carousel('cycle');
 });
 
-var modal = document.getElementById("myModal");
+var modal = document.getElementsByClassName("ramen-btn-modal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var btn = document.getElementsByClassName("ramen-btn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close");
 
 // When the user clicks the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
+btn[0].onclick = function() {
+    modal[0].style.display = "block";
+}
+
+btn[1].onclick = function() {
+    modal[1].style.display = "block";
+}
+
+btn[2].onclick = function() {
+    modal[2].style.display = "block";
+}
+
+btn[3].onclick = function() {
+    modal[3].style.display = "block";
+}
+
+btn[4].onclick = function() {
+    modal[4].style.display = "block";
+}
+
+btn[5].onclick = function() {
+    modal[5].style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+span[0].onclick = function() {
+    modal[0].style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
+span[1].onclick = function() {
+    modal[1].style.display = "none";
+}
+
+span[2].onclick = function() {
+    modal[2].style.display = "none";
+}
+
+span[3].onclick = function() {
+    modal[3].style.display = "none";
+}
+
+span[4].onclick = function() {
+    modal[4].style.display = "none";
+}
+
+span[5].onclick = function() {
+    modal[5].style.display = "none";
+}
+
+
+// When the user clicks anywhere outside of the modal, close it - NOT WORKING
+
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+    if (event.target == modal[0]) {
+    modal[0].style.display = "none";
+    }
+    if (event.target == modal[1]) {
+    modal[1].style.display = "none";
+    }
+    if (event.target == modal[2]) {
+    modal[2].style.display = "none";
+    }
+    if (event.target == modal[3]) {
+    modal[3].style.display = "none";
+    }
+    if (event.target == modal[4]) {
+    modal[4].style.display = "none";
+    }
+    if (event.target == modal[5]) {
+    modal[5].style.display = "none";
+    }
 }
-</script>
 
+</script>
