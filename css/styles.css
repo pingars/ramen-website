@@ -49,6 +49,10 @@ img{
   width: 300px;
 }
 
+.favourite-container{
+  max-width: 550px
+}
+
 #list-container {
   display: flex;
   justify-content: center;
